@@ -1,0 +1,50 @@
+export const tasks = [
+    {
+        "id": 0,
+        "text": "Write a cool JS library",
+        "status" : 2,
+        "order" : 0
+    },
+    {
+        "id": 1,
+        "text": "Make it generic enough",
+        "status" : 2,
+        "order" : 1 
+    },
+    {
+        "id": 2,
+        "text": "Write README",
+        "status" : 2,
+        "order" : 2
+    },
+    {
+        "id": 3,
+        "text": "Create some examples",
+        "status" : 1,
+        "order" : 1 
+    },
+    {
+        "id": 4,
+        "text": "Spam in Twitter and IRC to promote it (note that this element is taller than the others)" ,
+        "status" : 0,
+        "order" : 0      
+    }, 
+    {
+        "id": 5,
+        "text": "???",
+        "status" : 0,
+        "order" : 1  
+    }, 
+    {
+        "id": 6,
+        "text": "PROFIT",
+        "status" : 1,
+        "order" : 0 
+    }
+]
+
+export const lists = {
+    "0": "Pending",
+    "1": "In Progress",
+    "2": "Done"
+}
